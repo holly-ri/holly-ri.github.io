@@ -1,0 +1,74 @@
+public class Main {
+    public static void main(String[] args) {
+        /* 기본 데이터 타입 */
+        int i = 1;
+        float f = 1.1f;
+        double d = 1.2;
+        boolean b = true;
+        char c = 'a';
+        System. out.println(i );
+        System. out.println(f );
+        System. out.println( d);
+        System. out.println(b );
+        System. out.println(c );
+        
+             /* 레퍼런스 데이터 타입 */
+       Integer i = 1;
+       Float f = 1.1f;
+       Double d = 1.2;
+       Boolean b = true;
+       Character c = 'a';
+       String s = "Hello World";
+       System. out.println( i);
+       System. out.println( f);
+       System. out.println( d);
+       System. out.println( b);
+       System. out.println( c);
+       System. out.println(s );
+       
+            /* 배열 선언 */
+       int[] arr = {1,2,3,4};
+       System. out.println(arr .getClass());
+       
+         /* Array */
+       Integer[] a = {1,2,3,4}; // Array Type
+       //Integer a[] = {1,2,3,4}; // Array Type
+       System. out.println(a );
+       System. out.println(a [1]);
+       
+              /* List */
+       ArrayList a = new ArrayList();
+       a.add(1);
+       a.add(2);
+       a.add("Hello");
+       System. out.println(a );
+       
+              /* Generics */
+       ArrayList<String> list = new ArrayList<String>();
+       list.add("Hello" );
+       list.add("Hello" );
+       //list.add(123); // Error
+       
+              /* Map */
+       HashMap<String, Integer> map = new HashMap<String, Integer>();
+       // HashMap<String, int> map = new HashMap<String, int >(); // Error
+       map.put("one" , 1);
+       map.put("two" , 2);
+       System. out.println(map .get("one"));
+       System. out.println(map .get("three")); // null
+       //System.out.println(map.containsKey("three"));
+       //System.out.println(map.remove("one"));
+       //System.out.println(map.get("one"));
+       //System.out.println(map.size());
+       
+            /* if ~ else 1 */
+       boolean b = true;
+       if(b == true){
+              System. out.println("변수 b는 true 입니다." );
+       } else{
+              System. out.println("변수 b는 false 입니다." );
+              
+               }
+               
+    }
+}
